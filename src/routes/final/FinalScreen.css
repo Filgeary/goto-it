@@ -1,0 +1,13 @@
+.FinalScreen-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.FinalScreen-logo {
+  padding: 1.5em;
+  filter: drop-shadow(0 0 3em #61dafbaa);
+  animation: logo-spin infinite 20s linear;
+}

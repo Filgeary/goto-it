@@ -1,0 +1,48 @@
+.Story-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.Story-image {
+  max-width: 90%;
+  height: auto;
+  min-height: 730px;
+  max-height: 90vh;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  border-radius: 28px;
+  border: 4px solid #ccc;
+}
+
+.Story-text {
+  width: fit-content;
+  max-width: 80%;
+  margin-top: -30px;
+  margin-left: auto;
+  padding: 16px 20px;
+  border: 4px solid cyan;
+  border-radius: 20px;
+  background: #232222;
+}
+
+.Story-control {
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  background-color: #232222;
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.Story-control-text {
+  position: absolute;
+  transform: translate(-50%, -55px);
+}
