@@ -1,3 +1,5 @@
-# goto-it
+# Войти в АйТи / Рефлексия по стажировке, до и после... <!-- markdownlint-disable-line -->
 
-> prototype fun-project / IT-newbie reflection
+> Мини-проект-история
+
+![goto-it-preview](goto-it_preview.webp)
